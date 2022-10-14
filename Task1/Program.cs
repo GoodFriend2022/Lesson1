@@ -9,8 +9,6 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Веедите второе число > ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-int max = numberA;
-
 if (numberA > numberB)
 {
     System.Console.WriteLine($"Из двух чисел, которые вы ввели {numberA} - большее число, {numberB} - меньшее число");
